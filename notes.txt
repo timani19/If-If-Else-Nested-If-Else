@@ -1,0 +1,77 @@
+Control Flow:
+
+
+IF - then Statement:
+
+> In if statement, one condition will be given and it has to be true.
+
+> It tells your program to execute a certain section of code only if a particular test evaluates to true.
+
+> Use if to specify a block of code to be executed, if a specified condition is true
+
+
+Example:
+
+int x=10;
+int y=5;
+
+if (x>y) {  // so here this condition HAS to be TRUE to execute the below code
+
+sout("x is greater than y);
+
+
+
+If this condition evaluates to false (x is not greater than y), control jumps to the end of the if-then statement.
+
+
+
+If-Then-Else Statment:
+
+> this block of condition will execute when if condition is False. 
+
+
+Rules:
+
+If: will execute when the condition is true
+
+else if: If the first if condition is false, then it will come to this condition
+
+and check if it is true. If this is true will execute this section of code
+
+
+else: If first two conditions are false, then it will execute the Else condition
+
+
+SYNTAX:
+
+
+if (condition)
+statement-1;
+
+else if (condition)
+statement-2;
+
+else if (condition)
+statement-n;
+
+else
+statement-default;
+
+
+
+Using Scanner: Functions
+
+Int> .nextInt()
+
+double> .nextDouble()
+
+char > .next().charAt(0)
+
+String > .nextLine()
+
+Short> .nextShort()
+
+Long > .nextLong()
+
+
+
